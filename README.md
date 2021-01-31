@@ -1,6 +1,7 @@
 # Jenkins em larga escala com kubernetes
 Repositório do curso Jenkins em larga escala com kubernetes.
-**Wiki:** https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/home
+**Wiki**: https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/home
+**Docker-hub**: https://hub.docker.com/u/rfasioli
 
 ## v0.1.0
 ### Build e Push
@@ -68,7 +69,7 @@ docker run --name docker-jenkins-4 \
 Na versão 1 foram atualizados os plugins no curso. para gerar a imagem e executar o container podem ser utilizados os mesmos comandos da versão 0.4.0
 
 ## v.1.1.0
-Nesta versão a 1.1.0, foi atualizada a versão do jenkins e plugins para a data atual.
+Nesta versão a 1.1.0, foi atualizada a versão de plugins para a data atual.
 ### Build
 ```
 docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:1.1.0
